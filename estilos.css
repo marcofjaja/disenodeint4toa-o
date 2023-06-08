@@ -1,0 +1,12 @@
+
+.encabezado{background-color: rgb(245, 221, 8);width: 1900px;height: 200px;text-align: center; color: black; margin: 10px; border-radius: 6px;}
+.contenido1{background-color: rgb(4, 75, 33);width: 1900px;height: 200px;text-align: center; color: aliceblue; margin: 10px; border-radius: 6px;}
+.contenido2{background-color: rgb(82, 36, 134);width: 1900px;height: 200px;text-align: center; color: aliceblue; margin: 10px; border-radius: 6px;}
+.contenido3{background-color: rgb(143, 36, 36);width: 1900px;height: 200px;text-align: center;color:aliceblue; margin: 10px; border-radius: 6px;}
+.footer{background-color: rgb(0, 0, 0);color: rgb(226, 43, 43); width: 1900px;height: 200px;text-align: center; margin: 10px; border-radius: 6px;}
+h3{font-size: 40px;}
+h4{font-size: 45px;}
+h1{font-size: 60px; padding-top: 50px;}
+p{font-size: 20px;}
+.contenido1{background-color: rgb(4, 75, 33);width: 1900px;height: 200px;text-align: center; color: aliceblue;}
+.image{margin-left: 20px; width: 170px;height: 150px;float: left;margin-top: 20px;}
