@@ -19,5 +19,8 @@ class Ventana(Frame):
         self.btnnuevo= Button(frame1,text="Alta Estudiante",command=self.fNuevo,bg="black",fg="white")
         self.btnnuevo.place(x=15,y=50,width=120,height=40)
         
-        self.btnnuevo= Button(frame1,text="Actualizar Estudiante",command=self.fNuevo,bg="black",fg="white")
-        self.btnnuevo.place(x=15,y=50,width=120,height=40)
+        self.btnActualizar= Button(frame1,text="Actualizar Estudiante",command=self.fActualizar,bg="black",fg="white")
+        self.btnActualizar.place(x=15,y=140,width=120,height=40)
+         
+        self.btnEliminar= Button(frame1,text="Eliminar Estudiante", command=self.fEliminar,bg="black",fg="white")
+        self.btnEliminar.place(x=15,y=220,width=120,height=40)
