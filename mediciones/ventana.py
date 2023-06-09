@@ -24,3 +24,19 @@ class Ventana(Frame):
          
         self.btnEliminar= Button(frame1,text="Eliminar Estudiante", command=self.fEliminar,bg="black",fg="white")
         self.btnEliminar.place(x=15,y=220,width=120,height=40)
+        
+        frame2= Frame(self,bg="#5DADE2")
+        frame2.place(x=150,y=0,width=230,height=450)
+        
+        #Primera etiqueta codigo
+        lbl1= Label(frame2,text="Còdigo: ")
+        lbl1.place(x=30,y=30)
+        self.txtCodigo=Entry(frame2)
+        self.txtCodigo.place(x=30,y=58,width=150,height=20)
+        
+        #Segunda etiqueta de Nombre
+        lbl2= Label(frame2,text="Nombre y Apellido: ")
+        lbl2.place(x=30,y=95)
+        self.txtNombre=Entry(frame2)
+        self.txtNombre.place(x=30,y=125,width=150,height=20)
+        
